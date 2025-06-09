@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   app:
-    image:dor93/version-alert:latest
+    image: dor93/version-alert:latest
     # build: .
     ports:
       - "8000:8000"
