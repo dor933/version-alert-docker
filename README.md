@@ -1,5 +1,24 @@
 ### Docker Usage
 
+### Prerequisites
+
+Before using Docker deployment, ensure you have the following installed:
+
+- **Docker**: [Install Docker](https://docs.docker.com/get-docker/)
+- **Docker Compose**: [Install Docker Compose](https://docs.docker.com/compose/install/)
+
+> **Note**: Docker Desktop for Windows and Mac includes Docker Compose by default. For Linux, you may need to install it separately.
+
+#### Verify Installation
+
+```bash
+# Check Docker version
+docker --version
+
+# Check Docker Compose version
+docker-compose --version
+```
+
 #### Using Pre-built Docker Image
 
 The easiest way to run Version Alert is using the pre-built Docker image:
